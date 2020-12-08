@@ -1,4 +1,5 @@
-import 'package:animated_drawer/configuration.dart';
+
+import 'package:demok/00_models/configuration.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
