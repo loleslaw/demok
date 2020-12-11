@@ -1,3 +1,4 @@
+import 'package:demok/00_models/configuration.dart';
 import 'package:flutter/material.dart';
 
 /*
@@ -20,7 +21,7 @@ class PrimaryButton extends StatelessWidget {
       padding: EdgeInsets.all(22),
       child: Text(
         labelText.toUpperCase(),
-        style: TextStyle(fontWeight: FontWeight.bold),
+        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26,),
       ),
     );
   }

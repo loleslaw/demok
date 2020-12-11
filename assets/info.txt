@@ -1,0 +1,5 @@
+generacja swoich ikon
+https://medium.com/deviniti-technology-driven-blog/the-best-way-to-add-custom-icons-to-your-flutter-project-6381ab697813
+
+text formatowany
+https://pub.dev/packages/mask_text_input_formatter

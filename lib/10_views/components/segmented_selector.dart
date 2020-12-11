@@ -1,3 +1,4 @@
+import 'package:demok/00_models/configuration.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 //import 'package:flutter_starter/ui/components/sliding_segmented_control.dart';
@@ -22,7 +23,7 @@ class SegmentedSelector extends StatelessWidget {
     //if (Platform.isIOS) {}
 
     return CupertinoSlidingSegmentedControl(
-        //thumbColor: Theme.of(context).primaryColor,
+        thumbColor: AppColor.selector,
         groupValue: selectedOption,
         children: Map.fromIterable(
           menuOptions,
